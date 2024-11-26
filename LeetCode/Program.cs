@@ -1,6 +1,4 @@
-﻿using LeetCode;
-using LeetCode.Classes;
-using LeetCode.Classes.EASY;
+﻿using LeetCode.Classes.EASY;
 
 
 //TwoSums.Run();                                                    //1     => 1. Two Sum
@@ -27,6 +25,11 @@ using LeetCode.Classes.EASY;
 //ReverseInteger.Run();                                             //22    => 7. Reverse Integer
 //ValidPalindrome.Run();                                            //22    => 125. Valid Palindrome
 //FirstUnique.Run();                                                //23    => 387. First Unique
-ConcatenationofArray.Run();                                         //23    => 1929. Concatenation Of Array
+//ConcatenationofArray.Run();                                       //24    => 1929. Concatenation Of Array
+//ValidPerfectSquare.Run();                                         //25    => 367. Valid Perfect Square
+
+
+
+
 
 
