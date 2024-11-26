@@ -21,27 +21,13 @@ namespace LeetCode.Classes.EASY
             for(int i =0;i<operations.Length;i++)
             {
                 string currentString = operations[i];
-                if (!currentString.StartsWith("X"))
+                if (currentString.Contains("++"))
                 {
-                    if (currentString.StartsWith("++"))
-                    {
-                        ++result;
-                    }
-                    else if (currentString.StartsWith("--"))
-                    {
-                        --result;
-                    }
+                    result++;
                 }
                 else
                 {
-                    if (currentString.EndsWith("++"))
-                    {
-                        result++;
-                    }
-                    else if (currentString.EndsWith("--"))
-                    {
-                        result--;
-                    }
+                    result--;
                 }
             }
             return result;
