@@ -27,4 +27,5 @@
 //FirstUnique.Run();                                                //23    => 387. First Unique
 //ConcatenationofArray.Run();                                       //24    => 1929. Concatenation Of Array
 //ValidPerfectSquare.Run();                                         //25    => 367. Valid Perfect Square
-FindValuesAfterPerfom.Run();                                      //26    => 2001. Final Value of Variable After Performing Operations
+//FindValuesAfterPerfom.Run();                                      //26    => 2001. Final Value of Variable After Performing Operations
+MergeSortedArray.Run();                                           //27    => 88. Merge Sorted Array
