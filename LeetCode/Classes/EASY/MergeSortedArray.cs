@@ -10,10 +10,19 @@ namespace LeetCode.Classes.EASY
     {
         public static void Run()
         {
-            int[] nums1 = [1, 2, 3, 0, 0, 0];
-            int[] nums2= [2,5,6];
-            int m = 3, n = 3;
-            Merge(nums1, m, nums2, n);
+            //int[] nums1 = [1, 2, 3, 0, 0, 0];
+            //int[] nums2= [2,5,6];
+            //int m = 3, n = 3;
+            //Merge(nums1, m, nums2, n);
+
+            //int a = 10, b = 20;
+            //Console.WriteLine({0}+{1}, a, b);
+
+            int i = 10;
+            //Console.WriteLine(i++);
+            //Console.WriteLine(i);
+            Console.WriteLine(++i);
+            Console.WriteLine(i);
         }
         public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
