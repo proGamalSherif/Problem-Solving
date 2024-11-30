@@ -30,4 +30,5 @@
 //FindValuesAfterPerfom.Run();                                      //26    => 2001. Final Value of Variable After Performing Operations
 //MergeSortedArray.Run();                                           //27    => 88. Merge Sorted Array
 //SingleNumber.Run();                                           //28    => 136. Single Number
-PowerOfThree.Run();                                           //28    => 136. Single Number
+//PowerOfThree.Run();                                           //29    => 136. Single Number
+NumbersSmallerThanCurrent.Run();                                           //29    => 1365. How Many Numbers Are Smaller Than the Current Number
