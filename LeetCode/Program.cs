@@ -1,4 +1,5 @@
 ﻿using LeetCode.Classes.EASY;
+using LeetCode.Classes.Medium;
 
 
 //TwoSums.Run();                                                    //1     => 1. Two Sum
@@ -32,4 +33,12 @@
 //SingleNumber.Run();                                           //28    => 136. Single Number
 //PowerOfThree.Run();                                           //29    => 136. Single Number
 //NumbersSmallerThanCurrent.Run();                                           //29    => 1365. How Many Numbers Are Smaller Than the Current Number
-ShuffleString.Run();                                           //30    => 1528. Shuffle String
+//ShuffleString.Run();                                           //30    => 1528. Shuffle String
+//DivideTwoIntegers.Run();                                           //31    => 29. Divide Two Integers
+
+
+
+
+//Medium Problem Sovling 
+
+LongestSubstringWithoutRepeatingCharacters.Run();                                           //31    => 29. Divide Two Integers
