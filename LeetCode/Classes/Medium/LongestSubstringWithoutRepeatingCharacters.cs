@@ -12,25 +12,28 @@ namespace LeetCode.Classes.Medium
         {
             string s = "abcabcbb";
             int result = LengthOfLongestSubstring(s);
-            Console.WriteLine(s);
+            Console.WriteLine(result);
         }
         public static int LengthOfLongestSubstring(string s)
         {
-            Dictionary<char, int> charIndexMap = new Dictionary<char, int>();
             int maxLength = 0;
-            int start = 0; 
+            int start = 0;  
 
             for (int end = 0; end < s.Length; end++)
             {
-                char currentChar = s[end];
-                if (charIndexMap.ContainsKey(currentChar) && charIndexMap[currentChar] >= start)
+                for (int i = start; i < end; i++)
                 {
-                    start = charIndexMap[currentChar] + 1; 
+                    if (s[end] == s[i])
+                    {
+                        start = i + 1;
+                        break;
+                    }
                 }
-                charIndexMap[currentChar] = end;
                 maxLength = Math.Max(maxLength, end - start + 1);
             }
+
             return maxLength;
         }
+
     }
 }
