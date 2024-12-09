@@ -35,7 +35,8 @@ using LeetCode.Classes.Medium;
 //NumbersSmallerThanCurrent.Run();                                           //29    => 1365. How Many Numbers Are Smaller Than the Current Number
 //ShuffleString.Run();                                           //30    => 1528. Shuffle String
 //DivideTwoIntegers.Run();                                           //31    => 29. Divide Two Integers
-ContainsDuplicateII.Run();                                           //31    => 29. Divide Two Integers
+//ContainsDuplicateII.Run();                                           //31    => 29. Divide Two Integers
+ExcelSheetColumnTitle.Run();                                           //31    => 29. Divide Two Integers
 
 
 
