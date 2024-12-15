@@ -30,13 +30,15 @@ using LeetCode.Classes.Medium;
 //ValidPerfectSquare.Run();                                         //25    => 367. Valid Perfect Square
 //FindValuesAfterPerfom.Run();                                      //26    => 2001. Final Value of Variable After Performing Operations
 //MergeSortedArray.Run();                                           //27    => 88. Merge Sorted Array
-//SingleNumber.Run();                                           //28    => 136. Single Number
-//PowerOfThree.Run();                                           //29    => 136. Single Number
-//NumbersSmallerThanCurrent.Run();                                           //29    => 1365. How Many Numbers Are Smaller Than the Current Number
-//ShuffleString.Run();                                           //30    => 1528. Shuffle String
-//DivideTwoIntegers.Run();                                           //31    => 29. Divide Two Integers
-//ContainsDuplicateII.Run();                                           //31    => 29. Divide Two Integers
-ExcelSheetColumnTitle.Run();                                           //31    => 29. Divide Two Integers
+//SingleNumber.Run();                                               //28    => 136. Single Number
+//PowerOfThree.Run();                                               //29    => 136. Single Number
+//NumbersSmallerThanCurrent.Run();                                  //29    => 1365. How Many Numbers Are Smaller Than the Current Number
+//ShuffleString.Run();                                              //30    => 1528. Shuffle String
+//DivideTwoIntegers.Run();                                          //31    => 29. Divide Two Integers
+//ContainsDuplicateII.Run();                                        //32    => 29. Divide Two Integers
+//ExcelSheetColumnTitle.Run();                                      //33    => 29. ExcelSheetColumnTitle
+//ExcelSheetColumnTitle.Run();                                      //34    => 2974. Minimum Number Game
+MinimumNumberGame.Run();                                      //34    => 2974. Minimum Number Game
 
 
 
